@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Carousel</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img class="img active" src="./img/5.png" id="last" alt="pic5">
+                <img class="img " src="./img/1.png" alt="pic1">
+                <img class="img " src="./img/2.png" alt="pic2">
+                <img class="img " src="./img/3.png" alt="pic3">
+                <img class="img " src="./img/4.png" alt="pic4">
+                <img class="img " src="./img/5.png" alt="pic5">
+                <img class="img " src="./img/1.png" id="first" alt="pic1">
+            </div>
+
+        </div>
+        <div class="navigation">
+            <span class="navdot active" id="navdot1"></span>
+            <span class="navdot" id="navdot2"></span>
+            <span class="navdot" id="navdot3"></span>
+            <span class="navdot" id="navdot4"></span>
+            <span class="navdot" id="navdot5"></span>
+        </div>
+        <button class="btn-style prev"><i class="fas fa-arrow-left fa-3x" id="prevBtn"></i></button>
+        <button class="btn-style next"><i class="fas fa-arrow-right fa-3x" id="nextBtn"></i></button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
